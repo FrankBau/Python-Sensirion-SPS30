@@ -1,6 +1,8 @@
 # Python script for Sensirion SPS30
 Python script to save data from Sensirion SPS30 particulate matter sensor
 
+forked from szajakubiak/Python-Sensirion-SPS30
+
 Use with USB serial adapter (/dev/ttyUSB0)
 ==
 
