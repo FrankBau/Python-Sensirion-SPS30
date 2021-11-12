@@ -4,9 +4,9 @@ Python script to save data from Sensirion SPS30 particulate matter sensor
 Use with USB serial adapter (/dev/ttyUSB0)
 ==
 
-This is recommended as it leaves the serial port on the Raspi header for serial login. Just connect the USB-serial adapter to the sensor and the USB Port of the Raspi. A new serila device /dev/ttyUSB0 should be present. As the serial communication with the sensor uses a dedicated protocol, the easiest way to test the sensor from the command line are the .py scripts:
+This is recommended as it leaves the serial port on the Raspi header for serial login. Just connect the USB-serial adapter to the sensor and the USB Port of the Raspi. A new serial device `/dev/ttyUSB0` should be present. As the serial communication with the sensor uses a dedicated protocol, the easiest way to test the sensor from the command line are the .py scripts:
 
-Clone the repo into folder /home/pi/Python-Sensirion-SPS30/ by 
+Clone the repo into folder `/home/pi/Python-Sensirion-SPS30/` by 
 ```
 pi@raspberrypi:~ $ cd ~
 pi@raspberrypi:~ $ git clone https://github.com/FrankBau/Python-Sensirion-SPS30.git
