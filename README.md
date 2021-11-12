@@ -25,7 +25,7 @@ The script `log_1_sec.py` will output one line per second like
 ```
 The column headers are
 ```
-yyyy-m-d h:m:s CPU Temp. PM1 PM2.5 PM4 PM10 0.3÷0.5 0.3÷1 0.3÷2.5 0.3÷4 0.3÷10 typical size
+yyyy-m-d h:m:s; CPU Temp.; PM1; PM2.5; PM4; PM10; 0.3÷0.5; 0.3÷1; 0.3÷2.5; 0.3÷4; 0.3÷10; typical size
 ```
 Stop the output with Ctrl+C.
 
