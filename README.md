@@ -16,12 +16,16 @@ Now you should be able to test the connected sensor:
 pi@raspberrypi:~ $ cd ~/Python-Sensirion-SPS30
 pi@raspberrypi:~ $ python3 log_1_sec.py
 ```
-The script will output one line per second like
+The script `log_1_sec.py` will output one line per second like
 ```
-2021-11-06 20:50:41; 3.85; 4.07; 4.07; 4.07; 25.81; 30.55; 30.72; 30.73; 30.73; 0.49;
-2021-11-06 20:50:42; 4.47; 4.73; 4.73; 4.73; 29.98; 35.49; 35.68; 35.69; 35.70; 0.43;
-2021-11-06 20:50:43; 4.82; 5.09; 5.09; 5.09; 32.31; 38.24; 38.45; 38.46; 38.47; 0.43;
+2021-11-12 11:10:07; 26.1; 16.74; 18.40; 18.95; 19.07; 110.67; 132.18; 133.59; 133.74; 133.78; 0.64;
+2021-11-12 11:10:09; 25.6; 16.60; 18.24; 18.80; 18.91; 109.69; 131.03; 132.43; 132.59; 132.63; 0.63;
+2021-11-12 11:10:10; 26.1; 16.61; 18.25; 18.81; 18.92; 109.75; 131.10; 132.50; 132.65; 132.69; 0.63;
 ...
+```
+The column headers are
+```
+yyyy-m-d h:m:s CPU Temp. PM1 PM2.5 PM4 PM10 0.3÷0.5 0.3÷1 0.3÷2.5 0.3÷4 0.3÷10 typical size
 ```
 Stop the output with Ctrl+C.
 
